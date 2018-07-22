@@ -1,0 +1,5 @@
+ru/tasks/task/integration/LibraryTest.class
+ru/tasks/task/service/AuthorsWithBooksServiceTest.class
+ru/tasks/task/service/BooksServiceTest.class
+ru/tasks/task/service/AuthorsServiceTest.class
+ru/tasks/task/controllers/IndexControllerTest.class

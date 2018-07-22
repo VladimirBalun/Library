@@ -1,0 +1,1015 @@
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameAuthor2' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleBook3' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameAuthor2' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleBook3' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameAuthor2' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleBook3' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestTitleOfBook' for key 'title_UNIQUE'
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestTitleOfBook' for key 'title_UNIQUE'
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestTitleOfBook' for key 'title_UNIQUE'
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestTitleOfBook' for key 'title_UNIQUE'
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  ru.tasks.task.library.LibraryImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  ru.tasks.task.library.LibraryImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  ru.tasks.task.library.LibraryImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  ru.tasks.task.library.LibraryImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  ru.tasks.task.library.LibraryImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - false
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - false
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - false
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor1 TestTitleOfBook
+[main] INFO  ru.tasks.task.library.LibraryImpl  - TestNameOfAuthor2 TestTitleOfBook
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  ru.tasks.task.library.LibraryImpl  - NewTestNameOfAuthor NewTestTitleOfBook
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Deleting
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  ru.tasks.task.library.LibraryImpl  - Adding
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestTitleOfBook NewTestTitleOfBook 2000
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  ru.tasks.task.data.service.BooksServiceImpl  - TestingTitleOfBook NewTestTitleOfBook 2000
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+[main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.2.5.Final}
+[main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] INFO  org.hibernate.ejb.Ejb3Configuration  - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[main] INFO  org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator  - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+[main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+[main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[main] WARN  org.hibernate.ejb.internal.EntityManagerFactoryRegistry  - HHH000436: Entity manager factory name (default) is already registered.  If entity manager will be clustered or passivated, specify a unique value for property 'hibernate.ejb.entitymanager_factory_name'
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingNameOfAuthor' for key 'name_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.AuthorsServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.book
+[main] WARN  ru.tasks.task.data.service.AuthorsWithBooksServiceImpl  - org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author; nested exception is javax.persistence.PersistenceException: org.hibernate.PropertyValueException: not-null property references a null or transient value: ru.tasks.task.data.entity.AuthorWithBook.author
+[main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1062, SQLState: 23000
+[main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - Duplicate entry 'TestingTitleOfBook' for key 'title_UNIQUE'
+[main] WARN  ru.tasks.task.data.service.BooksServiceImpl  - org.hibernate.exception.ConstraintViolationException: could not execute statement; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+[main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
